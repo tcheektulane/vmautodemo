@@ -11,11 +11,11 @@ pool:
   vmImage: "ubuntu-latest"
 
 variables:
-  - group: ServerAutomationDemo
+  - group: vmautodemo
   - name: azure_resource_group_name
     value: "ServerProvisionTesting-$(Build.BuildId)"
   - name: subscription_id
-    value: "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+    value: "bde1e5a0-287e-4682-bd7e-7c17860970f6"
   - name: application_id
     value: "XXXXXXXXXXXXXXXXXXXXXXXXXX"
   - name: tenant_id
